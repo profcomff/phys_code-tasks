@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem
+        package="ru.ejudge.sample_contest"
+        id="B"
+        type="standard">
+  <statement language="ru_RU">
+    <title>Условие</title>
+    <description>			<p>Ниже представлена таблица, содержащая 9 портретов известных ученых и изобретателей. Необходимо сопоставить их с следующими фамилиями:</p>
+			<ol type="A" style="margin-left: 15px;">
+				<li>Джеймс Клерк Максвелл</li>
+				<li>Линус Торвальдс</li>
+				<li>Луи Пастер</li>
+				<li>Константин Эдуардович Циолковский</li>
+				<li>Галилео Галилей</li>
+				<li>Чарлз Дарвин</li>
+				<li>Людвиг Прандтль</li>
+				<li>Готфрид Вильгельм Лейбниц</li>
+				<li>Сэр Тим Бернерс-Ли</li>
+			</ol>
+			<br/>
+			<table border="0" width="100%" cellpadding="5">
+				<tr>
+					<td><center><img src="https://pp.userapi.com/c856032/v856032978/b103/Y4XlbXbrw6s.jpg" width="250px" alt="1"/><br/>1</center></td>
+					<td><center><img src="https://pp.userapi.com/c856032/v856032978/b10a/MrODuCnftAc.jpg" width="250px" alt="2"/><br/>2</center></td>
+					<td><center><img src="https://pp.userapi.com/c856032/v856032978/b111/OtRzgypi_fE.jpg" width="250px" alt="3"/><br/>3</center></td>
+				</tr>
+				<tr>
+					<td><center><img src="https://pp.userapi.com/c856032/v856032978/b118/CxHyBXD767w.jpg" width="250px" alt="4"/><br/>4</center></td>
+					<td><center><img src="https://pp.userapi.com/c856032/v856032978/b11f/i7-DPJs4oro.jpg" width="250px" alt="5"/><br/>5</center></td>
+					<td><center><img src="https://pp.userapi.com/c856032/v856032978/b12d/gqeHSiJQde8.jpg" width="250px" alt="6"/><br/>6</center></td>
+				</tr>
+				<tr>
+					<td><center><img src="https://pp.userapi.com/c856032/v856032978/b126/C7fi9wLT-x8.jpg" width="250px" alt="7"/><br/>7</center></td>
+					<td><center><img src="https://pp.userapi.com/c856032/v856032978/b134/SFAle0v8LGw.jpg" width="250px" alt="8"/><br/>8</center></td>
+					<td><center><img src="https://pp.userapi.com/c856032/v856032978/b13b/4rzLbR2zV5g.jpg" width="250px" alt="9"/><br/>9</center></td>
+				</tr>
+			</table>
+</description>
+    <input_format><p>Строка, в которой без пробелов и иных разделяющихся символов записана последовательность цифр 1-9. Длина строки от 1 до 9 символов включительно.</p>
+</input_format>
+    <output_format><p>Строка той же длины, что и входная последовательность, содержащая только символы A-I без пробелов и иных символов.</p>
+</output_format>
+    <notes><p>Мы не гарантируем правильность ответа в примере. Он используется исключительно для объяснения формата выходных данных.</p>
+</notes>
+  </statement>
+  <examples>
+    <example>
+      <input>1234
+</input>
+      <output>DCBA
+</output>
+    </example>
+  </examples>
+</problem>

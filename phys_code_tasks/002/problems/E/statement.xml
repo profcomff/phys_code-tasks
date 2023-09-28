@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem
+        package="ru.ejudge.sample_contest"
+        id="E"
+        type="standard">
+  <statement language="ru_RU">
+    <title>Шарик</title>
+    <description><p> Каковы относительные погрешности объема шара и площади поверхности сферы, если их радиус известен с точностью до n%?</p>
+</description>
+    <input_format><p>Вещественное число n, лежащее в интервале от 0 до 100.</p>
+</input_format>
+    <output_format><p>Относительная погрешность объема шара и относительная погрешность площади поверхности сферы. Оба числа должны выводиться с 5 знаками после запятой.</p>
+</output_format>
+  </statement>
+  <examples>
+    <example>
+      <input>16.5
+</input>
+      <output>0.49500 0.33000
+</output>
+    </example>
+  </examples>
+</problem>

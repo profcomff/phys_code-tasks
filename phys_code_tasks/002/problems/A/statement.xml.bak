@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem
+        package="ru.ejudge.sample_contest"
+        id="A"
+        type="standard">
+  <statement language="ru_RU">
+    <title>Задача A</title>
+    <description><p>Количество вещества x, участвующего в некоторой химической реакции, определяется уравнением dx/dt = -x (t - время).</p>
+</description>
+    <input_format><p>Программа получает на ввод 2 параметра: время t, сек (неотрицательная величина) и количество вещества x, моль (неотрицательная величина) которое было в начальный момент.</p>
+</input_format>
+    <output_format><p>Программа должна выводить результат - количество вещества (в моль), участвующего в реакции в данный момент времени t. Ответом должно быть число с 8 знаками после запятой. </p>
+</output_format>
+  </statement>
+  <examples>
+    <example>
+      <input>10 0.4
+</input>
+      <output>0.00001816
+</output>
+    </example>
+  </examples>
+</problem>

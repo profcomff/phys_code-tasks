@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem
+        package="ru.ejudge.sample_contest"
+        id="C"
+        type="standard">
+  <statement language="ru_RU">
+    <title>Условие</title>
+    <description><p>Вычислите факториал 1000001! с абсолютной точностью. Ответ запишите в текстовый файл.</p>
+</description>
+    <input_format><p>Требуется отправить только текстовый файл содержащий ответ без разделителей разряда и без переносов строк.</p>
+</input_format>
+    <notes><p>Ожидаемый размер файла может превышать 5МБ, будьте терпеливыми.</p>
+</notes>
+  </statement>
+</problem>

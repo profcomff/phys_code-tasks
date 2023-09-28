@@ -1,0 +1,9 @@
+/* Generated 2018/11/29 23:44:51 by ejudge 3.7.6+ (GIT c09a462c) */
+
+#include "testlib.h"
+
+int
+main(int argc, char *argv[])
+{
+    return 0;
+}

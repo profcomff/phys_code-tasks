@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem
+        package="ru.ejudge.sample_contest"
+        id="C"
+        type="standard">
+  <statement language="ru_RU">
+    <title>Условие</title>
+    <description><p>Численное интегрирование
+Вычислить интеграл:</p>
+<img src="https://pp.userapi.com/c854228/v854228801/12b9b/PVUW3KjpHkY.jpg" width="250px" alt="1"/>
+<p>с точностью до пятого знака. Вернуть 0, если интеграл расходится.</p>
+</description>
+    <input_format><p>Четыре вещественных числа, разделённых пробелами (a,b,c,d).</p>
+</input_format>
+    <output_format><p>Одно вещественное число - значение интеграла до пятого знака.</p>
+</output_format>
+  </statement>
+  <examples>
+    <example>
+      <input>0 10 0 1
+</input>
+      <output>0.1031
+</output>
+    </example>
+  </examples>
+</problem>

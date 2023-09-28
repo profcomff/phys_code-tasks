@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem
+        package="ru.ejudge.sample_contest"
+        id="H"
+        type="standard">
+  <statement language="ru_RU">
+    <title>Задача H</title>
+    <description><p> Определить полный магнитный поток Φ катушки, равномерно намотанной на сердечник прямоугольного сечения при следующих  введенных данных: сила тока I (А), размеры катушки: внутренний радиус R1 (см), внешний радиус R2 (см), высота h (см), число витков n.</p>
+</description>
+    <input_format><p>Программа получает на вход в следующем порядке значения I, R1, R2, h, n (все числа положительны и не превышают 100, R2 > R1).</p>
+</input_format>
+    <output_format><p>Величина Φ в системе СИ с точностью до 10 знаков после запятой. Допускается погрешность 2%.</p>
+</output_format>
+  </statement>
+  <examples>
+    <example>
+      <input> 1 5 7 2 500
+</input>
+      <output> 0.0000006729
+</output>
+    </example>
+  </examples>
+</problem>

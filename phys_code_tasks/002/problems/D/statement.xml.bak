@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem
+        package="ru.ejudge.sample_contest"
+        id="D"
+        type="standard">
+  <statement language="ru_RU">
+    <title>Задача D</title>
+    <description><p> Найти процентное содержание углекислого газа в реакции 2CO + O_2 -> 2CO_2, которое определяется уравнением (p/k^2 - 1)*x^3 + 3*x - 2 = 0, где p - давление, k - постоянная равновесия.</p>
+</description>
+    <input_format><p>Программа получает на ввод различные положительные параметры p и k.</p>
+</input_format>
+    <output_format><p>Выводить программа должна значение x - искомую величину в процентах, округленную до целых.</p>
+</output_format>
+  </statement>
+  <examples>
+    <example>
+      <input>1 1.648
+</input>
+      <output>76
+</output>
+    </example>
+  </examples>
+</problem>

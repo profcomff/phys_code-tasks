@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem
+        package="ru.ejudge.sample_contest"
+        id="A"
+        type="standard">
+  <statement language="ru_RU">
+    <title>Условие</title>
+    <description><p>Найдите корень(ни) уравнения x^4+ax^3+bx^2+cx+d=0 на отрезке от [e,f] с точностью до третьего знака после запятой.</p>
+</description>
+    <input_format><p>Шесть вещественных чисел (a,b,c,d,e,f), разделённых пробелами.</p>
+</input_format>
+    <output_format><p>Корни уравнения разделённые пробелом с точностью до 3 знака в порядке возрастания.</p>
+</output_format>
+    <notes><p>Если корни совпадают, вывести только один раз.</p>
+</notes>
+  </statement>
+  <examples>
+    <example>
+      <input>-8 22 -24 9 0 2
+</input>
+      <output>1
+</output>
+    </example>
+  </examples>
+</problem>

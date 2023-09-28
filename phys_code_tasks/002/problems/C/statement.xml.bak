@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem
+        package="ru.ejudge.sample_contest"
+        id="C"
+        type="standard">
+  <statement language="ru_RU">
+    <title>Термопара</title>
+    <description><p>Изучается зависимость между электродвижущей силой E и температурой нагревания T термопары. Данные измерений приведены в виде множества точек с координатами (T, 'C; E, мВ). Необходимо найти приближенную зависимость E(T) [мВ('C)] в виде квадратного трехчлена по методу наименьших квадратов.</p>
+</description>
+    <input_format><p>Разные наборы чисел в следующем формате: T1 E1 T2 E2 T3 E3 ... (количество точек может варьироваться от 3 до 10).</p>
+</input_format>
+    <output_format><p>Коэффициент квадратного трехчлена, стоящий при квадрате температуры.</p>
+</output_format>
+  </statement>
+  <examples>
+    <example>
+      <input>500 3.23 750 4.52 1000 5.71 1250 10.17 1500 18.49
+</input>
+      <output>1.980571428571427e-05
+</output>
+    </example>
+  </examples>
+</problem>

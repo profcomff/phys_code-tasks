@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<problem
+        package="ru.ejudge.sample_contest"
+        id="F"
+        type="standard">
+  <statement language="ru_RU">
+    <title>Задача F</title>
+    <description><p> Вычислить определенный интеграл функции f(x) на интервале от a до b функции f(x) = 1/x * sin(PI*x/2) - p*x^2 + q*x - r, где p, q и r — некоторые константы.</p>
+</description>
+    <input_format><p>p, q, r, a, b — действительные числа, по модулю не превосходящие 200.</p>
+</input_format>
+    <output_format><p>Значение интеграла с точностью до 3 знака после запятой.</p>
+</output_format>
+  </statement>
+  <examples>
+    <example>
+      <input> 1 1 1 2 3
+</input>
+      <output> -5.077
+</output>
+    </example>
+  </examples>
+</problem>
